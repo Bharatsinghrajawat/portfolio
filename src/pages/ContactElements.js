@@ -6,12 +6,11 @@ export const ContactContainer = styled.div`
     display : grid ;
     height : 100% ;
     width : 100%;
-
+ 
 `;
 
 export const ContactWrapper = styled.div`
     display : grid;
-    grid-template-columns : 1fr 2fr;
     position : absolute : 
     justify-content : center;
     @media screen and (max-width:768px){
@@ -32,17 +31,17 @@ export const ContactDetails = styled.div`
 
 `;
 
-export const Img = styled.img`
-    height : 100%;
-    width : 100%;
-    border-radius :20px;
-    align-items : center ;
+// export const Img = styled.img`
+//     height : 100%;
+//     width : 100%;
+//     border-radius :20px;
+//     align-items : center ;
 
-    @media screen and (max-width: 768px){
-        height : 55%;
-        width :50%;
-    }
-`;
+//     @media screen and (max-width: 768px){
+//         height : 55%;
+//         width :50%;
+//     }
+// `;
 
 export const SocialLinks = styled.div`
     display : flex ;

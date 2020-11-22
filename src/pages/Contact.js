@@ -1,13 +1,13 @@
 import React from 'react'
-import {ContactContainer , ContactWrapper , ContactDetails , Img , SocialLinks , SocialLinkIcon , SideBtnWrap , SideBarRoute} from './ContactElements'
+import {ContactContainer , ContactWrapper , ContactDetails ,  SocialLinks , SocialLinkIcon , SideBtnWrap , SideBarRoute} from './ContactElements'
 import {FaInstagram , FaLinkedin , FaGithub} from 'react-icons/fa'
-import profile from '../images/profile.jpg'
+// import profile from '../images/profile.jpg'
 const Contact = () => {
     return (
         <>
             <ContactContainer>
                 <ContactWrapper>
-                <Img src={profile} alt='not available' />                    
+                {/* <Img src={profile} alt='not available' />                     */}
                     <ContactDetails>
                         <p>Name  : Bharat Singh Rajawat</p>
                         <p>Email : bharatsingh1036@gmail.com</p>
