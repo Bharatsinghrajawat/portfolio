@@ -25,7 +25,7 @@ export const homeObjThree = {
     lightTextDesc : true ,
     topline : 'KNOW ME MORE' ,
     headline : 'Technologies',
-    description : 'HTML , CSS , JAVASCRIPT , REACT , REDUX , FIREBASE',
+    description : 'HTML , CSS , JAVASCRIPT , REACT , REDUX , FIREBASE , NODE JS, EXPRESS , MONGODB, GIT',
     imgStart : false,
     img : codeReview,
     alt : 'Car',

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import{ Nav , NavbarContainer , NavLogo , MobileIcon , NavMenu , NavItem , NavLinks , NavBtn , NavBtnLink } from './NavbarElements';
 import {FaBars} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
-import Pdf from '../../images/Newresume.pdf';
+import Pdf from '../../images/Bharat_Singh_Rajawat_Resume.pdf';
 export default function NavBar({toggle}) {
     const [scrollNav , setScrollNav] = useState(false);
     const changeNav = () => {
@@ -14,7 +14,6 @@ export default function NavBar({toggle}) {
     };
     useEffect(() => {
         window.addEventListener('scroll',changeNav);
-        console.log("useEffect from navbar for scroll changed");
     },[scrollNav]);
 
     const toggleHome = () => {

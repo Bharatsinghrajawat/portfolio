@@ -8,7 +8,6 @@ import SideBar from '../components/sidebar/SideBar'
 
 export default function HomePage() {
     const [isOpen , setIsOpen] = useState(false);
-    console.log("isOpen before toggle " + isOpen);
     const toggle = () => {
         setIsOpen(!isOpen);
     }
